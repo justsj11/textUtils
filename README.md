@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting started with Text-utils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with the React Library from Facebook. This project is the first project I have made using the React framework. This reacta-app basically capitalizes the first letter of your name.
 
 ## Available Scripts
 
