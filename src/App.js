@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar  from './components/Navbar';
-import textform from './components/textform';
+import TextForm from './components/TextForm';
 
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Navbar title="Textutils" aboutTheProduct="About Text Utils"/>
-    <textform/>
+    <TextForm/>
     </>
   );
 }

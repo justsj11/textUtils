@@ -1,6 +1,6 @@
 import React from 'react'
 
-function textform() {
+function Textform() {
     return (
         <div>
             <form>
@@ -19,9 +19,8 @@ function textform() {
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
-
         </div>
     )
 }
 
-export default textform;
+export default Textform;
