@@ -1,16 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Textform() {
+
+function Textform(props) {
+    const [text, setText] = useState("Enter text here!")
     return (
-        <div>
-            <form>
-                <div className="mb-3 container">
-                    <label for="headerText" className="form-label">Enter the text to analyze.</label>
-                    <input type="text" className="form-control" id="exampleTextArea" aria-describedby="emailHelp"/>
-                </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
-        </div>
+        <form>
+            <div className="form-group">
+                <h1>{props.heading}</h1>
+                <textarea className="form-control container" id="exampleFormControlTextarea1" rows="8"></textarea>
+                <button className="btn btn-primary">Convert to UpperCase</button>
+            </div>
+        </form>
     )
 }
 
