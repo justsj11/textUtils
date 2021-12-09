@@ -7,6 +7,7 @@ function App() {
     <>
     <Navbar title="Textutils" aboutTheProduct="About Text Utils"/>
     <TextForm heading="Enter Text to analyze!"/>
+    
     </>
   );
 }
